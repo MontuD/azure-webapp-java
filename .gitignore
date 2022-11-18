@@ -33,6 +33,8 @@ build/
 .vscode/
 
 
-
+appservice.pub
+appservice
 azure-dep
 azure-dep.pub
+/target/*

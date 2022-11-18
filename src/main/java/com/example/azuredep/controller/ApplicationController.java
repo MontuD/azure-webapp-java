@@ -21,16 +21,9 @@ public class ApplicationController {
 	
 	
 	@GetMapping("/")
-	@ResponseBody
-	public  CustomResponse<String> direct(HttpServletRequest request) {
+	public String direct(HttpServletRequest request) {
 		
-		CustomResponse<String> customResponse = new CustomResponse<String>();
-		
-		customResponse.setResponseCode(Response.SC_OK);
-		customResponse.setMessage("Hello World "+ request.getRemoteAddr());
-		
-		
-		return customResponse;
+		return "hello";
 	}
 
 	
