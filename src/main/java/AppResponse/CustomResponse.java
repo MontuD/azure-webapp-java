@@ -3,6 +3,7 @@ package AppResponse;
 public class CustomResponse<T> {
 	int responseCode;
 	T message;
+	
 	public CustomResponse() {
 		// TODO Auto-generated constructor stub
 	}
@@ -11,6 +12,7 @@ public class CustomResponse<T> {
 
 	public CustomResponse(T message, int responseCode) {
 		super();
+		
 		this.message = message;
 		this.responseCode = responseCode;
 	}
