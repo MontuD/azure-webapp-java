@@ -39,8 +39,17 @@ nav ul li:hover a {
   justify-content: space-around;
 }
 
+.emp-card {
+  border: 1px solid;
+  margin: 4px;
+  padding: 2px;
+}
 .emp-card img {
   border-radius: 50%;
+  transform: translateX(50%);
+}
+.emp-card .name {
+  text-align: center;
 }
 .emp-card .skills ul {
   margin: 0;
@@ -52,7 +61,13 @@ nav ul li:hover a {
   list-style: none;
 }
 .emp-card .skills ul li {
-  padding: 1em;
+  margin: 0.2em;
+  padding: 0.4em;
+}
+.emp-card .skills ul li:hover {
+  background: gray;
+  border-radius: 20%;
+  color: white;
 }
 
 .handle {

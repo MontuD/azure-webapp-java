@@ -46,10 +46,18 @@ nav{
 }
 
 .emp-card{
+
+    border:  1px solid;
+    margin:  4px;
+    padding: 2px;
    
 
     img{
         border-radius: 50%;
+        transform: translateX(50%);
+    }
+    .name{
+        text-align: center;
     }
     .skills{
         ul{
@@ -61,8 +69,14 @@ nav{
             flex-wrap: wrap;
             list-style: none;
             li{
-                padding: 1em;
-
+                margin: 0.2em;
+                padding: 0.4em;
+                &:hover{
+                    
+                    background: gray;
+                    border-radius: 20%;
+                    color: white;
+                }
             }
         }
     }
