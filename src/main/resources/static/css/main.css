@@ -29,6 +29,32 @@ nav ul li:hover a {
   color: white;
 }
 
+.container {
+  margin: 0.5em 1em 0.5em 1em;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-around;
+}
+
+.emp-card img {
+  border-radius: 50%;
+}
+.emp-card .skills ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.emp-card .skills ul li {
+  padding: 1em;
+}
+
 .handle {
   position: fixed;
   bottom: 0%;
