@@ -1,0 +1,43 @@
+body{
+    padding: 0%;
+    margin: 0;
+}
+
+nav{
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid black;
+    background-color: #00d9ff;
+    ul{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+       
+        li{
+            
+            padding: 1em;
+           
+           a{
+            text-decoration: none;  
+            color : rgb(0, 0, 0);
+           }
+
+            &:hover{
+                background-color: darken($color: #034d5b, $amount: 0);
+                 a{
+                    color: white;
+                 }          
+            }
+
+        }
+       
+    }
+}
+
+
+.handle{
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+}

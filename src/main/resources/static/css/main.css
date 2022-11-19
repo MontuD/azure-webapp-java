@@ -1,0 +1,36 @@
+body {
+  padding: 0%;
+  margin: 0;
+}
+
+nav {
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid black;
+  background-color: #00d9ff;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  padding: 1em;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+nav ul li:hover {
+  background-color: #034d5b;
+}
+nav ul li:hover a {
+  color: white;
+}
+
+.handle {
+  position: fixed;
+  bottom: 0%;
+  left: 0%;
+}/*# sourceMappingURL=main.css.map */
