@@ -3,13 +3,6 @@ pipeline {
    
     stages {
 
-        stage('SCM Checkout') {
-            steps {
-                // Get some code from a GitHub repository
-                
-            }    
-        }
-
         stage('Build with MVN') {
             steps {
             sh "mvn clean package"
